@@ -19,6 +19,7 @@ function getTotalNumberOfBorrows(account, books) {
   return total;
 }
 
+//helper function
 function booksBorrowed(books, account) {
   const user = account.id;
   let booksStillRented = books.filter((book) =>
